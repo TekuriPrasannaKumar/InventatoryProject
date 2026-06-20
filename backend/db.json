@@ -1,0 +1,242 @@
+{
+  "inventory": [
+    {
+      "id": 1,
+      "brand": "Amrut",
+      "product": "Fusion Single Malt",
+      "category": "Whisky",
+      "size": "750ml",
+      "stock": 18,
+      "ksbclRef": 3200,
+      "barCost": 3200,
+      "sellingPrice": 3800
+    },
+    {
+      "id": 2,
+      "brand": "Bacardi",
+      "product": "Carta Blanca",
+      "category": "Rum",
+      "size": "750ml",
+      "stock": 12,
+      "ksbclRef": 880,
+      "barCost": 880,
+      "sellingPrice": 1050
+    },
+    {
+      "id": 3,
+      "brand": "Bira 91",
+      "product": "White Wheat Ale",
+      "category": "Beer",
+      "size": "650ml",
+      "stock": 72,
+      "ksbclRef": 180,
+      "barCost": 180,
+      "sellingPrice": 220
+    },
+    {
+      "id": 4,
+      "brand": "Black Dog",
+      "product": "Triple Gold Reserve",
+      "category": "Whisky",
+      "size": "750ml",
+      "stock": 15,
+      "ksbclRef": 1850,
+      "barCost": 1850,
+      "sellingPrice": 2200
+    },
+    {
+      "id": 5,
+      "brand": "Bombay Sapphire",
+      "product": "London Dry Gin",
+      "category": "Gin",
+      "size": "750ml",
+      "stock": 8,
+      "ksbclRef": 2400,
+      "barCost": 2400,
+      "sellingPrice": 2850
+    },
+    {
+      "id": 6,
+      "brand": "Glenlivet",
+      "product": "12 Year Single Malt",
+      "category": "Whisky",
+      "size": "750ml",
+      "stock": 6,
+      "ksbclRef": 4800,
+      "barCost": 4800,
+      "sellingPrice": 5600
+    },
+    {
+      "id": 7,
+      "brand": "Greater Than",
+      "product": "London Dry Gin",
+      "category": "Gin",
+      "size": "750ml",
+      "stock": 10,
+      "ksbclRef": 1100,
+      "barCost": 1100,
+      "sellingPrice": 1320
+    },
+    {
+      "id": 8,
+      "brand": "Grover Zampa",
+      "product": "La Reserve",
+      "category": "Wine",
+      "size": "750ml",
+      "stock": 15,
+      "ksbclRef": 1180,
+      "barCost": 1180,
+      "sellingPrice": 1420
+    },
+    {
+      "id": 9,
+      "brand": "Honey Bee",
+      "product": "Premium Brandy",
+      "category": "Brandy",
+      "size": "750ml",
+      "stock": 24,
+      "ksbclRef": 440,
+      "barCost": 440,
+      "sellingPrice": 530
+    },
+    {
+      "id": 10,
+      "brand": "Jagermeister",
+      "product": "Herbal Liqueur",
+      "category": "Liqueur",
+      "size": "750ml",
+      "stock": 5,
+      "ksbclRef": 1600,
+      "barCost": 1600,
+      "sellingPrice": 1900
+    },
+    {
+      "id": 11,
+      "brand": "Kingfisher",
+      "product": "Strong Premium Lager",
+      "category": "Beer",
+      "size": "650ml",
+      "stock": 120,
+      "ksbclRef": 110,
+      "barCost": 110,
+      "sellingPrice": 140
+    },
+    {
+      "id": 12,
+      "brand": "McDowell's",
+      "product": "No.1 Reserve Whisky",
+      "category": "Whisky",
+      "size": "750ml",
+      "stock": 48,
+      "ksbclRef": 555,
+      "barCost": 555,
+      "sellingPrice": 680
+    },
+    {
+      "id": 13,
+      "brand": "Officer's Choice",
+      "product": "Black Whisky",
+      "category": "Whisky",
+      "size": "750ml",
+      "stock": 67,
+      "ksbclRef": 470,
+      "barCost": 470,
+      "sellingPrice": 580
+    }
+  ],
+  "movements": [
+    {
+      "id": 1,
+      "date": "2026-04-28",
+      "type": "sell",
+      "inventoryId": 12,
+      "brand": "McDowell's",
+      "qty": 12,
+      "pricePerBottle": 850,
+      "total": 10200,
+      "note": ""
+    },
+    {
+      "id": 2,
+      "date": "2026-04-28",
+      "type": "sell",
+      "inventoryId": 4,
+      "brand": "Black Dog",
+      "qty": 24,
+      "pricePerBottle": 250,
+      "total": 6000,
+      "note": ""
+    },
+    {
+      "id": 3,
+      "date": "2026-04-28",
+      "type": "sell",
+      "inventoryId": 13,
+      "brand": "Officer's Choice",
+      "qty": 12,
+      "pricePerBottle": 720,
+      "total": 8640,
+      "note": ""
+    },
+    {
+      "id": 4,
+      "date": "2026-04-27",
+      "type": "sell",
+      "inventoryId": 11,
+      "brand": "Kingfisher",
+      "qty": 3,
+      "pricePerBottle": 3600,
+      "total": 10800,
+      "note": ""
+    },
+    {
+      "id": 5,
+      "date": "2026-04-27",
+      "type": "sell",
+      "inventoryId": 13,
+      "brand": "Officer's Choice",
+      "qty": 8,
+      "pricePerBottle": 1650,
+      "total": 13200,
+      "note": ""
+    },
+    {
+      "id": 6,
+      "date": "2026-04-23",
+      "type": "receive",
+      "inventoryId": 12,
+      "brand": "McDowell's",
+      "qty": 60,
+      "pricePerBottle": 555,
+      "total": 33300,
+      "note": "Weekly delivery"
+    },
+    {
+      "id": 7,
+      "date": "2026-04-22",
+      "type": "receive",
+      "inventoryId": 13,
+      "brand": "Officer's Choice",
+      "qty": 72,
+      "pricePerBottle": 470,
+      "total": 33840,
+      "note": "Weekly delivery"
+    },
+    {
+      "id": 8,
+      "date": "2026-04-19",
+      "type": "receive",
+      "inventoryId": 11,
+      "brand": "Kingfisher",
+      "qty": 12,
+      "pricePerBottle": 2500,
+      "total": 30000,
+      "note": ""
+    }
+  ],
+  "settings": {
+    "barName": "Tonight's House",
+    "region": "Karnataka",
+    "lastSync": "2026-06-17"
+  }
+}
