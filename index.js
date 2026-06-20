@@ -174,4 +174,15 @@ app.put('/api/settings', async (req, res) => {
   await db.write(); res.json(db.data.settings)
 })
 
-app.listen(4000, () => console.log('✓ BarStock API → https://barstock-api-9erp.onrender.com/'))
+const PORT = process.env.PORT || 4000
+
+app.get('/', (req, res) => {
+  res.json({
+    status: 'OK',
+    message: 'BarStock API Running'
+  })
+})
+
+app.listen(PORT, () => {
+  console.log(`✓ BarStock API Running on Port ${PORT}`)
+})
